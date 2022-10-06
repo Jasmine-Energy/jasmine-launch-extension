@@ -1,0 +1,21 @@
+{
+  "name": "Jasmine Energy Launch",
+  "description": "Countdown timer for Jasmine Energy mainnet launch",
+  "version": "1.0",
+  "author": "Jasmine Energy",
+  "manifest_version": 3,
+  "chrome_url_overrides" : {
+    "newtab": "index.html"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["scripting"],
+  "icons": {
+    "16": "/images/icons/16.png",
+    "32": "/images/icons/32.png",
+    "48": "/images/icons/48.png",
+    "128": "/images/icons/128.png"
+  },
+  "options_page": "options.html"
+}
